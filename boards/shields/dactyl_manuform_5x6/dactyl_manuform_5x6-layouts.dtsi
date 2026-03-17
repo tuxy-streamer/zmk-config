@@ -15,7 +15,7 @@
         // https://zmk.dev/docs/development/hardware-integration/physical-layouts#optional-keys-property
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs  100 100  1    83     0     0     0>
-			, <&key_physical_attrs 100 100 108 -100 0 0 0>
+			/*, <&key_physical_attrs 100 100 108 -100 0 0 0>
 			, <&key_physical_attrs 100 100 220 -168 0 0 0>
 			, <&key_physical_attrs 100 100 333 -115 0 0 0>
 			, <&key_physical_attrs 100 100 433 -84 0 0 0>
@@ -77,7 +77,7 @@
 			, <&key_physical_attrs 150 100 1203 50 0 0 0>
 			, <&key_physical_attrs 150 100 1203 0 0 0 0>
 			, <&key_physical_attrs 100 100 1356 -200 0 0 0>
-			, <&key_physical_attrs 100 100 1356 0 0 0 0>
+			, <&key_physical_attrs 100 100 1356 0 0 0 0>*/
             ;
     };
 };

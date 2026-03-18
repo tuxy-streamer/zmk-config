@@ -20,6 +20,5 @@
 include:
   - board: nice_nano_v2
     shield: dactyl_manuform_5x6_left nice_view
-    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
   - board: nice_nano_v2
     shield: dactyl_manuform_5x6_right nice_view

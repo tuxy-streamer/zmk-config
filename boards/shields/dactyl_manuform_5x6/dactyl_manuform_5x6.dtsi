@@ -38,9 +38,10 @@ nice_view_spi: &spi0 { };
     pinctrl-names = "default", "sleep";
     
     /* Chip Select on P0.24 - display, P0.00 - PMW3389 */
-    cs-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>, <&gpio1 00 GPIO_ACTIVE_HIGH>;
+    /*cs-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>, <&gpio1 00 GPIO_ACTIVE_HIGH>;*/
+    cs-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;
 
-    mouse: mouse@0 {
+    /*mouse: mouse@0 {
 		compatible = "pixart,pmw3360";
 		status = "okay";
 		reg = <0>;
@@ -50,7 +51,7 @@ nice_view_spi: &spi0 { };
 		irq-gpios = <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		cpi = <600>;
 		rotate-90;
-	};
+	};*/
 };
 
 / {

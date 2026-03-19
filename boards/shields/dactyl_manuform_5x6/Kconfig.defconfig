@@ -21,15 +21,6 @@ if ZMK_DISPLAY
         default y
 
     config NICE_VIEW
-        default n
+        default ny
 
-    config SHARP_MEMORY
-        default y
-
-    config SHARP_MEMORY_CMD_WRITE_LINE
-        defauly y
-
-    config ZMK_DISPLAY_STATUS_SCREEN_BUILTIN
-        default y
-        
 endif

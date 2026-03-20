@@ -46,7 +46,7 @@ nice_view_spi: &spi0 { };
 		compatible = "pixart,pmw3360";
 		status = "okay";
 		reg = <1>;
-		spi-max-frequency = <2000000 | SPI_CPOL | SPI_CPHA>;
+		spi-max-frequency = <2000000>; // | SPI_CPOL | SPI_CPHA
 
 		// pmw3360 driver parameters
 		irq-gpios = <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;

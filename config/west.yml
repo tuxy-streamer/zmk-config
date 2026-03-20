@@ -2,13 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: teamspatzenhirn 
-      url-base: https://github.com/teamspatzenhirn
+   
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     # 
     #- name: george-norton
     #  url-base: https://github.com/george-norton
+
+    #- name: teamspatzenhirn 
+    #  url-base: https://github.com/teamspatzenhirn
+    
+    - name: trentrand
+      url-base: https://github.com/trentrand
 
   projects:
     - name: zmk
@@ -19,9 +24,14 @@ manifest:
     #  remote: george-norton
     #  revision: v0.3
 
-    - name: pmw3389_zephyr_driver
-      remote: teamspatzenhirn
-      revision: 57af49257e8453148691c32d98642d2b8bf1ec33
-      path: modules/pmw3389 
+    #- name: pmw3389_zephyr_driver
+    #  remote: teamspatzenhirn
+    #  revision: 57af49257e8453148691c32d98642d2b8bf1ec33
+    #  path: modules/pmw3389 
+
+    - name: zmk-pmw3610-driver
+      remote: trentrand
+      revision: main
+
   self:
     path: config

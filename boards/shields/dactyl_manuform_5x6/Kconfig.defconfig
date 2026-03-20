@@ -1,6 +1,3 @@
-config SPI
-    default y
-
 if SHIELD_DACTYL_MANUFORM_5x6_LEFT
 
     config ZMK_KEYBOARD_NAME

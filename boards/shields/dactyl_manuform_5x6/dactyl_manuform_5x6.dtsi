@@ -7,9 +7,9 @@
 nice_view_spi: &spi0 { };
 
 / {
-    mouse_listener {
+    trackball_listener {
         compatible = "zmk,input-listener";
-        device = <&mouse>;
+        device = <&pmw3389>;
     };
 };
 
@@ -42,16 +42,16 @@ nice_view_spi: &spi0 { };
     cs-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>   /* Index 0: Display */
             , <&gpio1 00 GPIO_ACTIVE_HIGH>;   /* Index 1: Mouse */
 
-    mouse: mouse@0 {
-		compatible = "pixart,pmw3360";
+    pmw3389: pmw3389@1 {
+		compatible = "pixart,pmw3389";
 		status = "okay";
 		reg = <1>;
 		spi-max-frequency = <2000000>; // | SPI_CPOL | SPI_CPHA
 
 		// pmw3360 driver parameters
 		irq-gpios = <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-		cpi = <800>;
-		rotate-90;
+        //reset-gpios = <&gpio0 24 GPIO_ACTIVE_LOW| GPIO_PULL_UP>;
+		resolution = <800>;
 	};
 };
 

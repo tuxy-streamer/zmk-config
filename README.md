@@ -2,7 +2,16 @@
 
 - [Awesome ZMK](https://github.com/mctechnology17/awesome-zmk)
 - [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)
+- [PMW3389 Zephyr Driver Module](https://github.com/teamspatzenhirn/pmw3389_zephyr_driver)
+- [PMW3360 optical mouse sensor driver for ZMK](https://github.com/george-norton/zmk-driver-pmw3360)
+- [nrf micro](https://github.com/joric/nrfmicro/wiki)
+- [Custom 5x7 Dactyl Manuform with Integrated Trackball](https://github.com/trentrand/ergonomic-keyboard)
+- [ZMK trackball interface using HID indicators](https://github.com/englmaxi/zmk-hid-trackball-interface)
+- [zmk-config-kai-cosmos](https://github.com/kaihchang/zmk-config-kai-cosmos/blob/main/config/west.yml)
 
+**Misc notes**
+sudo dmesg -w
+while true; do cat /dev/ttyACM1  && break; done
 
 **Original note**
 

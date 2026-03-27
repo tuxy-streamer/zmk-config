@@ -15,7 +15,7 @@ manifest:
       revision: v0.3.0
       import: app/west.yml
 
-    - name: zmk-driver-mw3389
+    - name: zmk-driver-pmw3389
       remote: chaldon
       path: zmk-driver-pmw3389
 

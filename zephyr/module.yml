@@ -1,5 +1,5 @@
 build:
   depends:
-    - zzmk-driver-mw3389
+    - zmk-driver-pmw3389
   settings:
     board_root: .

@@ -109,8 +109,8 @@
             bindings = <
 &trans          &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &studio_unlock  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&bootloader     &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&sys_reset      &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&bootloader     &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &bootloader
+&sys_reset      &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &sys_reset
                         &trans  &trans                                                  &trans  &trans
                                         &trans  &trans                  &trans  &trans
                                                 &trans  &trans  &trans  &trans
